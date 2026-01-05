@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat\\(ci\\): add Docker build and push workflow\n\nAdds GitHub Actions workflow to build and push container images to ghcr.io\non pushes to main and version tags. Supports multi-platform builds\n\\(amd64/arm64\\) with layer caching.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Bash(gh run:*)",
+      "Bash(git submodule:*)",
+      "Bash(cat:*)",
+      "Bash(docker build:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm install:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
